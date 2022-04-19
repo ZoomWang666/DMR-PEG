@@ -5,11 +5,9 @@ import torch
 import argparse
 import numpy as np
 from data_process import *
-from GNN import *
 from utils import *
 from train import *
 from Graph_embedding import *
-from EXTGNN import extGNN
 from GNNat import GNNat,GNNnew
 from torch_geometric.utils import to_networkx
 import os
